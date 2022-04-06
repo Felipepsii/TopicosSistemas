@@ -2,8 +2,6 @@ var num = 0;
 
 function umadez() {
 
-
-
     let para = document.createElement('p');
 
     para.textContent = num;
@@ -16,7 +14,7 @@ function umadez() {
 
     for (let i = 0; i < buttons.length; i++) {
 
-        buttons[i].addEventListener('click', createParagraph);
+        buttons[i].addEventListener('click');
 
     }
 
